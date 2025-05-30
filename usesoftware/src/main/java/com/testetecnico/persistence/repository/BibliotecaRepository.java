@@ -28,9 +28,7 @@ public class BibliotecaRepository {
                 .toList();
 
     }
-    public List<Livro> listarTodosLivros(){
-        return new ArrayList<>(livros);
-    }
+ 
 
     public Optional<Livro> buscarLivroPorId(int id) {
         return livros.stream().
